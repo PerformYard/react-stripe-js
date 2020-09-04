@@ -220,5 +220,5 @@ export const ElementsConsumer: FunctionComponent<ElementsConsumerProps> = ({
 };
 
 ElementsConsumer.propTypes = {
-  children: PropTypes.func.isRequired,
+  children: PropTypes.any,
 };
